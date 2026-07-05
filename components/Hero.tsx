@@ -8,7 +8,7 @@ export function Hero() {
       <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[1.08fr_0.92fr] lg:px-10 lg:py-24">
         <div className="space-y-7">
           <div className="flex flex-wrap gap-3">
-            <span className="rounded-full bg-emerald-500/15 px-4 py-2 text-sm text-emerald-200">Professional Publication Prototype v2.0</span>
+            <span className="rounded-full bg-emerald-500/15 px-4 py-2 text-sm text-emerald-200">Independent Analysis Platform</span>
             <span className="rounded-full bg-blue-500/15 px-4 py-2 text-sm text-blue-200">Donation-Compatible</span>
             <span className="rounded-full bg-white/10 px-4 py-2 text-sm text-slate-200">Independent Platform</span>
           </div>
