@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { Shell } from "@/components/Shell";
+import SocialProductivityInformationalSystem from "@/components/SocialProductivityInformationalSystem";
 import { analyses, getAnalysis } from "@/data/analyses";
 
 export function generateStaticParams() {
@@ -9,6 +10,14 @@ export function generateStaticParams() {
 export default function AnalysisDetailPage({ params }: { params: { slug: string } }) {
   const analysis = getAnalysis(params.slug);
   if (!analysis) notFound();
+
+  if (analysis.slug === "social-productivity-informational-system") {
+    return (
+      <Shell>
+        <SocialProductivityInformationalSystem />
+      </Shell>
+    );
+  }
 
   return (
     <Shell>
