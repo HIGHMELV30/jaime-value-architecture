@@ -14,14 +14,13 @@ export const analyses: Analysis[] = [
     ]
   },
   {
-    slug: "second-analysis",
-    title: "Second Analysis",
-    category: "Research",
-    status: "Draft",
-    summary: "Placeholder for the second major analysis connected to the main platform.",
+    slug: "social-productivity-informational-system",
+    title: "Social Productivity Informational System",
+    category: "Social Productivity",
+    status: "Published",
+    summary: "Public-facing informational system for wasted human energy, accountability gaps, false power, and growth redirection.",
     body: [
-      "This page is prepared for the second analysis. Replace this text when the second analysis is ready to publish.",
-      "The main website will link to this analysis through the Analysis Library, allowing future work to grow from one organized platform instead of disconnected websites."
+      "This analysis is connected to the Social Productivity Informational System component so the full interactive public-facing format can be rendered through the Analysis Library while preserving the platform structure."
     ]
   }
 ];
