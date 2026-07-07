@@ -8,7 +8,7 @@ export default function AnalysisIndexPage() {
     <Shell>
       <main className="mx-auto max-w-7xl space-y-8 px-6 py-12 lg:px-10">
         <SectionHeader eyebrow="Analysis Library" title="All analyses from one main platform">
-          Add future analyses in <code>data/analyses.ts</code>. Each one becomes clickable through <code>/analysis/[slug]</code>.
+          A public library of structured analyses developed through the Jaime Value Architecture platform. Each entry opens into its own dedicated analysis view.
         </SectionHeader>
         <div className="grid gap-5 md:grid-cols-2">
           {analyses.map((analysis) => <AnalysisCard key={analysis.slug} analysis={analysis} />)}
