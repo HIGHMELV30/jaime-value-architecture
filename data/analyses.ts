@@ -22,6 +22,16 @@ export const analyses: Analysis[] = [
     body: [
       "This analysis is connected to the Social Productivity Informational System component so the full interactive public-facing format can be rendered through the Analysis Library while preserving the platform structure."
     ]
+  },
+  {
+    slug: "black-ops-1-hardcore-ctf-professional-dashboard",
+    title: "Black Ops 1 Hardcore CTF Professional Dashboard",
+    category: "Gaming Strategy",
+    status: "Published",
+    summary: "A professional informational system for Hardcore CTF success, including complete loadouts, map-specific strategy, objective discipline, player improvement logic, and public-use disclaimers.",
+    body: [
+      "This analysis is connected to the Black Ops 1 Hardcore CTF Professional Dashboard component so the full interactive public-facing format can be rendered through the Analysis Library while preserving the platform structure."
+    ]
   }
 ];
 
