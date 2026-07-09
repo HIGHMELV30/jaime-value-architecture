@@ -32,6 +32,16 @@ export const analyses: Analysis[] = [
     body: [
       "This analysis is connected to the Black Ops 1 Hardcore CTF Professional Dashboard component so the full interactive public-facing format can be rendered through the Analysis Library while preserving the platform structure."
     ]
+  },
+  {
+    slug: "adult-disruptive-behavior-boundary-guide",
+    title: "Adult Disruptive Behavior Boundary Guide",
+    category: "Boundary Protection",
+    status: "Published",
+    summary: "Public-facing informational system for maintaining distance, hygiene standards, mental-space protection, and practical boundaries around unrelated adults who create loud, unhygienic, or emotionally disruptive environments.",
+    body: [
+      "This analysis is connected to the Adult Disruptive Behavior Boundary Guide component so the full public-facing informational system can be rendered through the Analysis Library while preserving the platform structure."
+    ]
   }
 ];
 
