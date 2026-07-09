@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { Shell } from "@/components/Shell";
 import SocialProductivityInformationalSystem from "@/components/SocialProductivityInformationalSystem";
 import BlackOpsHardcoreCTFSystem from "@/components/components_BlackOpsHardcoreCTFSystem";
+import PublicBoundaryGuideForAdultDisruptiveBehavior from "@/components/PublicBoundaryGuideForAdultDisruptiveBehavior";
 import { analyses, getAnalysis } from "@/data/analyses";
 
 export function generateStaticParams() {
@@ -24,6 +25,14 @@ export default function AnalysisDetailPage({ params }: { params: { slug: string 
     return (
       <Shell>
         <BlackOpsHardcoreCTFSystem />
+      </Shell>
+    );
+  }
+
+  if (analysis.slug === "adult-disruptive-behavior-boundary-guide") {
+    return (
+      <Shell>
+        <PublicBoundaryGuideForAdultDisruptiveBehavior />
       </Shell>
     );
   }
