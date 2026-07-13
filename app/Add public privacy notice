@@ -1,0 +1,42 @@
+import { Shell } from "@/components/Shell";
+import { site } from "@/data/site";
+
+export default function PrivacyPage() {
+  return (
+    <Shell>
+      <main className="mx-auto max-w-4xl space-y-8 px-6 py-12 lg:px-10">
+        <div className="space-y-4">
+          <p className="text-sm font-semibold uppercase tracking-[.2em] text-emerald-300">
+            Privacy
+          </p>
+
+          <h1 className="text-4xl font-semibold tracking-tight text-white md:text-6xl">
+            Privacy notice
+          </h1>
+
+          <p className="text-lg leading-8 text-slate-300">
+            This notice explains how information submitted through {site.name}
+            is handled.
+          </p>
+        </div>
+
+        <div className="space-y-7 text-base leading-8 text-slate-300">
+          <section>
+            <h2 className="text-xl font-semibold text-white">
+              Information collected
+            </h2>
+
+            <p>
+              Contact forms may collect your name, work email, company, service
+              interest, and message. Do not submit passwords, payment
+              information, confidential records, or regulated personal
+              information.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-white">
+              Purpose
+            </h2>
+
+            <p>
