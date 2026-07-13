@@ -58,6 +58,17 @@ export const analyses: Analysis[] = [
       "This Analysis Library entry is connected to the dedicated VerityOS Analysis component so the complete informational system can be rendered through the Analysis Library.",
     ],
   },
+  {
+    slug: "business-systems-value-architecture",
+    title: "Business Systems Value Architecture",
+    category: "Business Systems",
+    status: "Published",
+    summary:
+      "Interactive client-facing system showing how business intelligence, workflow automation, business applications, and applied AI create measurable operational value.",
+    body: [
+      "This Analysis Library entry is connected to the dedicated Business Systems Value Architecture component so the complete interactive system can be rendered through the Analysis Library.",
+    ],
+  },
 ];
 
 export function getAnalysis(slug: string) {
