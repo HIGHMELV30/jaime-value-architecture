@@ -15,8 +15,8 @@ export default function PrivacyPage() {
           </h1>
 
           <p className="text-lg leading-8 text-slate-300">
-            This notice explains how information submitted through {site.name}
-            is handled.
+            This notice explains how information submitted through {site.name} is
+            handled.
           </p>
         </div>
 
@@ -35,8 +35,51 @@ export default function PrivacyPage() {
           </section>
 
           <section>
+            <h2 className="text-xl font-semibold text-white">Purpose</h2>
+
+            <p>
+              Submitted information is used to review and respond to professional
+              inquiries, evaluate project fit, maintain security, and document
+              communications.
+            </p>
+          </section>
+
+          <section>
             <h2 className="text-xl font-semibold text-white">
-              Purpose
+              Sharing and retention
             </h2>
 
             <p>
+              Information is not sold. It may be processed by authorized hosting,
+              email, security, or workflow providers solely to operate the
+              service. Records should be retained only as long as reasonably
+              necessary for communication, security, and legal obligations.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-white">
+              Security and choices
+            </h2>
+
+            <p>
+              Reasonable safeguards are used, but no internet transmission is
+              guaranteed to be risk-free. To request access, correction, or
+              deletion, contact{" "}
+              {`mailto:${site.contactEmail}`}
+                {site.contactEmail}
+              </a>
+              .
+            </p>
+          </section>
+
+          <p className="text-sm text-slate-500">
+            Publication notice: This operational policy should receive
+            jurisdiction-specific legal review before use in regulated or
+            high-risk contexts.
+          </p>
+        </div>
+      </main>
+    </Shell>
+  );
+}
