@@ -4,6 +4,7 @@ import SocialProductivityInformationalSystem from "@/components/SocialProductivi
 import BlackOpsHardcoreCTFSystem from "@/components/components_BlackOpsHardcoreCTFSystem";
 import PublicBoundaryGuideForAdultDisruptiveBehavior from "@/components/PublicBoundaryGuideForAdultDisruptiveBehavior";
 import VerityOSAnalysis from "@/components/VerityOSAnalysis";
+import BusinessSystemsValueArchitecture from "@/components/BusinessSystemsValueArchitecture";
 import { analyses, getAnalysis } from "@/data/analyses";
 
 export function generateStaticParams() {
@@ -54,6 +55,14 @@ export default function AnalysisDetailPage({
     return (
       <Shell>
         <VerityOSAnalysis />
+      </Shell>
+    );
+  }
+
+  if (analysis.slug === "business-systems-value-architecture") {
+    return (
+      <Shell>
+        <BusinessSystemsValueArchitecture />
       </Shell>
     );
   }
