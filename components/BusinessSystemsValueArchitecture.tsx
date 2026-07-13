@@ -103,16 +103,16 @@ export default function BusinessSystemsValueArchitecture() {
           <div className="bsv-trust"><span>✓ Outcome-led</span><span>✓ Security-aware</span><span>✓ Built for adoption</span></div>
         </div>
 
-        <div className="bsv-dashboard" aria-label="Illustrative operations dashboard">
-          <div className="bsv-dashboard-top"><div><small>Operations intelligence</small><h2>Performance overview</h2></div><span className="bsv-live">● Live</span></div>
+        <div className="bsv-dashboard" aria-label="Demonstration operations dashboard">
+          <div className="bsv-dashboard-top"><div><small>Operations intelligence</small><h2>Dashboard capability preview</h2></div><span className="bsv-live">Demonstration</span></div>
           <div className="bsv-metrics">
-            <Metric label="Cases resolved" value="1,284" change="+18%" />
-            <Metric label="Cycle time" value="4.2h" change="−31%" />
-            <Metric label="Automation" value="68%" change="+12%" />
+            <Metric label="Operational volume" value="Connect data" change="No data connected" />
+            <Metric label="Cycle time" value="Not measured" change="No data connected" />
+            <Metric label="Automation rate" value="Not measured" change="No data connected" />
           </div>
-          <div className="bsv-chart"><div className="bsv-chart-title"><span>Weekly throughput</span><b>Target exceeded</b></div><div className="bsv-bars">{[38,56,45,68,62,81,92,76,96,88,100,94].map((height,index)=><i key={index} style={{height:`${height}%`}} />)}</div></div>
-          <div className="bsv-ai"><span className="bsv-ai-icon">AI</span><p><strong>Operations summary</strong>Throughput improved after approval routing was automated. Two exceptions require owner review.</p></div>
-          <p className="bsv-caption">Illustrative interface. Metrics are representative, not client results.</p>
+          <div className="bsv-chart"><div className="bsv-chart-title"><span>Illustrative reporting structure</span><b>Capability preview</b></div><div className="bsv-bars">{[38,56,45,68,62,81,92,76,96,88,100,94].map((height,index)=><i key={index} style={{height:`${height}%`}} />)}</div></div>
+          <div className="bsv-ai"><span className="bsv-ai-icon">AI</span><p><strong>Operations summary</strong>Connect authorized operational data to generate reviewed summaries, identify exceptions, and support accountable decisions.</p></div>
+          <p className="bsv-caption">Demonstration interface only. No actual client activity, performance results, or live operational data are represented.</p>
         </div>
       </section>
 
