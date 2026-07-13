@@ -68,11 +68,8 @@ export default function PrivacyPage() {
               Reasonable safeguards are used, but no internet transmission is
               guaranteed to be risk-free. To request access, correction, or
               deletion, contact{" "}
-              <a
-                href="mailto:jaimemaldonado@loadedstar.llc"
-                className="text-emerald-200 underline underline-offset-4"
-              >
-                jaimemaldonado@loadedstar.llc
+              {`mailto:${site.contactEmail}`}
+                {site.contactEmail}
               </a>
               .
             </p>
