@@ -25,6 +25,7 @@ export default function PrivacyPage() {
             <h2 className="text-xl font-semibold text-white">
               Information collected
             </h2>
+
             <p>
               Contact forms may collect your name, work email, company, service
               interest, and message. Do not submit passwords, payment
@@ -34,11 +35,14 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-white">Purpose</h2>
+            <h2 className="text-xl font-semibold text-white">
+              Purpose
+            </h2>
+
             <p>
-              Submitted information is used to review and respond to professional
-              inquiries, evaluate project fit, maintain security, and document
-              communications.
+              Submitted information is used to review and respond to
+              professional inquiries, evaluate project fit, maintain security,
+              and document communications.
             </p>
           </section>
 
@@ -46,10 +50,11 @@ export default function PrivacyPage() {
             <h2 className="text-xl font-semibold text-white">
               Sharing and retention
             </h2>
+
             <p>
-              Information is not sold. It may be processed by authorized hosting,
-              email, security, or workflow providers solely to operate the
-              service. Records should be retained only as long as reasonably
+              Information is not sold. It may be processed by authorized
+              hosting, email, security, or workflow providers solely to operate
+              the service. Records should be retained only as long as reasonably
               necessary for communication, security, and legal obligations.
             </p>
           </section>
@@ -58,12 +63,16 @@ export default function PrivacyPage() {
             <h2 className="text-xl font-semibold text-white">
               Security and choices
             </h2>
+
             <p>
               Reasonable safeguards are used, but no internet transmission is
               guaranteed to be risk-free. To request access, correction, or
               deletion, contact{" "}
-              {`mailto:${site.contactEmail}`}
-                {site.contactEmail}
+              <a
+                href="mailto:jaimemaldonado@loadedstar.llc"
+                className="text-emerald-200 underline underline-offset-4"
+              >
+                jaimemaldonado@loadedstar.llc
               </a>
               .
             </p>
