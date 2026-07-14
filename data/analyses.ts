@@ -69,6 +69,17 @@ export const analyses: Analysis[] = [
       "This Analysis Library entry is connected to the dedicated Business Systems Value Architecture component so the complete interactive system can be rendered through the Analysis Library.",
     ],
   },
+  {
+    slug: "operational-quality-intelligence-platform",
+    title: "Universal Operational Quality Intelligence Platform",
+    category: "Operational Intelligence",
+    status: "Published",
+    summary:
+      "Interactive product system for governed operational performance, data trust, exception control, corrective action, and verified improvement.",
+    body: [
+      "This Analysis Library entry is connected to the dedicated OQIP component so the complete interactive operational quality intelligence system can be rendered through the Analysis Library.",
+    ],
+  },
 ];
 
 export function getAnalysis(slug: string) {
