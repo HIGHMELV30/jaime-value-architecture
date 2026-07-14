@@ -5,6 +5,7 @@ import BlackOpsHardcoreCTFSystem from "@/components/components_BlackOpsHardcoreC
 import PublicBoundaryGuideForAdultDisruptiveBehavior from "@/components/PublicBoundaryGuideForAdultDisruptiveBehavior";
 import VerityOSAnalysis from "@/components/VerityOSAnalysis";
 import BusinessSystemsValueArchitecture from "@/components/BusinessSystemsValueArchitecture";
+import OQIPOperationalQualityIntelligence from "@/components/OQIPOperationalQualityIntelligence";
 import { analyses, getAnalysis } from "@/data/analyses";
 
 export function generateStaticParams() {
@@ -63,6 +64,14 @@ export default function AnalysisDetailPage({
     return (
       <Shell>
         <BusinessSystemsValueArchitecture />
+      </Shell>
+    );
+  }
+
+  if (analysis.slug === "operational-quality-intelligence-platform") {
+    return (
+      <Shell>
+        <OQIPOperationalQualityIntelligence />
       </Shell>
     );
   }
