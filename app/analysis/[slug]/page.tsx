@@ -6,6 +6,7 @@ import PublicBoundaryGuideForAdultDisruptiveBehavior from "@/components/PublicBo
 import VerityOSAnalysis from "@/components/VerityOSAnalysis";
 import BusinessSystemsValueArchitecture from "@/components/BusinessSystemsValueArchitecture";
 import OQIPOperationalQualityIntelligence from "@/components/OQIPOperationalQualityIntelligence";
+import AllowanceOSAI from "@/components/AllowanceOSAI";
 import { analyses, getAnalysis } from "@/data/analyses";
 
 export function generateStaticParams() {
@@ -72,6 +73,14 @@ export default function AnalysisDetailPage({
     return (
       <Shell>
         <OQIPOperationalQualityIntelligence />
+      </Shell>
+    );
+  }
+
+  if (analysis.slug === "allowanceos-ai") {
+    return (
+      <Shell>
+        <AllowanceOSAI />
       </Shell>
     );
   }
