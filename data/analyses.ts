@@ -80,6 +80,17 @@ export const analyses: Analysis[] = [
       "This Analysis Library entry is connected to the dedicated OQIP component so the complete interactive operational quality intelligence system can be rendered through the Analysis Library.",
     ],
   },
+  {
+    slug: "allowanceos-ai",
+    title: "AllowanceOS AI",
+    category: "Operational Systems",
+    status: "Published",
+    summary:
+      "Interactive operational-system demonstration for controlling supermarket supplier-funding recovery from agreement intake through verified accounting reconciliation.",
+    body: [
+      "This Analysis Library entry is connected to the dedicated AllowanceOS AI component so the complete interactive operational system can be rendered through the Analysis Library.",
+    ],
+  },
 ];
 
 export function getAnalysis(slug: string) {
