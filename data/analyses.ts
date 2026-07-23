@@ -91,6 +91,17 @@ export const analyses: Analysis[] = [
       "This Analysis Library entry is connected to the dedicated AllowanceOS AI component so the complete interactive operational system can be rendered through the Analysis Library.",
     ],
   },
+  {
+    slug: "crypto-os-professional-investor-edition",
+    title: "Crypto OS Professional Investor Edition",
+    category: "Digital Asset Intelligence",
+    status: "Published",
+    summary:
+      "Interactive investor-facing digital-asset intelligence system demonstrating asset discovery, evidence dossiers, comparative analysis, client policy adaptation, qualification controls, and proof-of-product audit activity.",
+    body: [
+      "This Analysis Library entry is connected to the dedicated Crypto OS Professional Investor Edition component so the complete interactive informational system is rendered through the Analysis Library.",
+    ],
+  },
 ];
 
 export function getAnalysis(slug: string) {
