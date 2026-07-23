@@ -7,6 +7,7 @@ import VerityOSAnalysis from "@/components/VerityOSAnalysis";
 import BusinessSystemsValueArchitecture from "@/components/BusinessSystemsValueArchitecture";
 import OQIPOperationalQualityIntelligence from "@/components/OQIPOperationalQualityIntelligence";
 import AllowanceOSAI from "@/components/AllowanceOSAI";
+import CryptoOSProfessionalInvestorEdition from "@/components/CryptoOSProfessionalInvestorEdition";
 import { analyses, getAnalysis } from "@/data/analyses";
 
 export function generateStaticParams() {
@@ -81,6 +82,17 @@ export default function AnalysisDetailPage({
     return (
       <Shell>
         <AllowanceOSAI />
+      </Shell>
+    );
+  }
+
+  if (
+    analysis.slug ===
+    "crypto-os-professional-investor-edition"
+  ) {
+    return (
+      <Shell>
+        <CryptoOSProfessionalInvestorEdition />
       </Shell>
     );
   }
